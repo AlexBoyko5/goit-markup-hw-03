@@ -26,11 +26,27 @@ ul {
     padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1188px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /*===header===*/
 
 .container-header {
-    padding-top: 25.5;
-    padding-bottom: 25.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px;
 }
 
 .header {
@@ -104,16 +120,16 @@ ul {
 
 /*===Solutions===*/
 
+.container-solutions {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 120px;
+}
+
 .solutions {
     background: var(--NAVY-BLUE, #3d422e);
 }
 
-.container-solutions {
-    padding-top: 188;
-    padding-left: 472;
-    padding-bottom: 292;
-    padding-right: 472;
-}
 
 .main-solutions-title {
     color: var(--WHITE, #FFF);
@@ -122,6 +138,7 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 
 .main-solutions-btn {
@@ -150,6 +167,10 @@ ul {
     background-color: #f4f4fd;
 }
 
+.container-features {
+    margin-bottom: 120px;
+}
+
 .features-title {}
 
 .features-list {}
@@ -172,6 +193,10 @@ ul {
 /*===Team===*/
 .team {
     background-color: #F4F4FD;
+}
+
+.container-team {
+    margin-bottom: 120px;
 }
 
 .team-title {
@@ -211,6 +236,10 @@ ul {
 
 .portfolio {
     background: #FFF;
+}
+
+.container-portfolio {
+    margin-bottom: 120px;
 }
 
 .portfolio-title {
