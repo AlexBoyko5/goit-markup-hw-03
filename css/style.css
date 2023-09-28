@@ -1,0 +1,246 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*===header===*/
+
+.header {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #f4f4fd;
+}
+
+.header-navi {
+    color-scheme: #2E2F42;
+    background-color: #f4f4fd;
+}
+
+.header-logo {
+    color: var(--NAVY-BLUE, #4d5ae5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-span {
+    color: var(--IRIS, #2e2f42);
+}
+
+.header-menu-list {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.heder-menu-item {}
+
+.header-menu-link {
+    color: #2E2F42;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF
+}
+
+.header-address {
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+    background-color: #f4f4fd;
+}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    color: var(--SLATE, #434455);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF
+}
+
+/*===maine===*/
+
+/*===Solutions===*/
+
+.solutions {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-solutions-title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.main-solutions-btn {
+    color: var(--WHITE, #FFF);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--IRIS, #4D5AE5);
+}
+
+.main-solutions-btn {
+    cursor: pointer;
+}
+
+.main-solutions-btn:hover,
+.main-solutions-btn:focus {
+    color: #404BBF;
+    background-color: #404BBF;
+}
+
+/*===Features===*/
+
+.features {
+    background-color: #f4f4fd;
+}
+
+.features-title {}
+
+.features-list {}
+
+.features-list-item {}
+
+.features-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-list-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+/*===Team===*/
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-list-item {
+    background-color: #FFFFFF
+}
+
+.team-image {}
+
+.team-image-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-list-text {
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/*===Portfolio===*/
+
+.portfolio {
+    background: #FFF;
+}
+
+.portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfoio-image {
+    background: var(--WHITE, #FFF);
+}
+
+.portfolio-image-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*===Footer===*/
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-span {
+    color: var(--IRIS, #f4f4fd);
+}
+
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
