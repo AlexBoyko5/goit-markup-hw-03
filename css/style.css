@@ -4,22 +4,41 @@ body {
     background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 /*===header===*/
+
+.container-header {
+    padding-top: 25.5;
+    padding-bottom: 25.5;
+}
 
 .header {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
 }
 
 .header-navi {
@@ -86,7 +105,14 @@ ul {
 /*===Solutions===*/
 
 .solutions {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--NAVY-BLUE, #3d422e);
+}
+
+.container-solutions {
+    padding-top: 188;
+    padding-left: 472;
+    padding-bottom: 292;
+    padding-right: 472;
 }
 
 .main-solutions-title {
@@ -244,3 +270,5 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*===container===*/
