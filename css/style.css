@@ -35,7 +35,7 @@ address {
 }
 
 .container {
-    width: 1188px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -155,7 +155,10 @@ address {
 }
 
 .main-solutions-btn {
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -173,7 +176,7 @@ address {
 }
 
 .container-features {
-    padding: 120px 15px;
+    padding: 120px 0;
 }
 
 .features-title {}
@@ -204,7 +207,7 @@ address {
 }
 
 .container-team {
-    padding: 120px 15px;
+    padding: 120px 0px;
 }
 
 .team-title {
@@ -254,7 +257,7 @@ address {
 }
 
 .container-portfolio {
-    padding: 120px 15px;
+    padding: 120px 0px;
 }
 
 .portfolio-title {
@@ -291,6 +294,8 @@ address {
     padding-left: 16px;
     padding-bottom: 0;
     padding-right: 16;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-list-text {
@@ -311,10 +316,10 @@ address {
 }
 
 .container-footer {
-    padding-top: 120px;
-    padding-left: 15px;
-    padding-bottom: 0;
-    padding-right: 15px;
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-bottom: 100;
+    padding-right: 0px;
 }
 
 .footer-logo {
@@ -325,7 +330,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 100px;
     margin-bottom: 16px;
 }
 
@@ -334,6 +338,7 @@ address {
 }
 
 .footer-text {
+    display: inline-block;
     color: var(--CLOUD, #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
