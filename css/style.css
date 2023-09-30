@@ -41,12 +41,15 @@ address {
     margin: 0 auto;
 }
 
-/*===header===*/
+/**===HEADER=============================*/
 
 .container-header {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f70707;
 }
 
 .header {
@@ -60,6 +63,9 @@ address {
 .header-navi {
     color-scheme: #2E2F42;
     background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -71,6 +77,9 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    align-items: center;
+    margin-right: 76px;
+    display: block;
 }
 
 .header-logo-span {
@@ -83,12 +92,15 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
 
 .heder-menu-item {}
 
 .header-menu-link {
     color: #2E2F42;
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -101,9 +113,14 @@ address {
     font-weight: 400;
     color: #434455;
     background-color: #f4f4fd;
+    margin-left: auto;
+    display: block;
 }
 
-.header-address-list {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-item {}
 
@@ -116,9 +133,9 @@ address {
     color: #404BBF
 }
 
-/*===maine===*/
+/*!===MAINE============================!*/
 
-/*===Solutions===*/
+/**===Solutions=========================*/
 
 .container-solutions {
     padding-top: 188px;
@@ -127,6 +144,7 @@ address {
     margin-right: 0;
     margin-bottom: 120px;
     margin-left: 0;
+    border: 1px solid #f70707;
 }
 
 .solutions {
@@ -161,6 +179,7 @@ address {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .main-solutions-btn:hover,
@@ -169,7 +188,7 @@ address {
     background-color: #404BBF;
 }
 
-/*===Features===*/
+/**===FEATURES=======================!*/
 
 .features {
     background-color: #f4f4fd;
@@ -177,13 +196,19 @@ address {
 
 .container-features {
     padding: 120px 0;
+    border: 1px solid #f70707;
 }
 
 .features-title {}
 
-.features-list {}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
 
-.features-list-item {}
+.features-list-item {
+    width: calc((100% - 24px *3) / 4);
+}
 
 .features-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -201,13 +226,15 @@ address {
     width: 264px;
 }
 
-/*===Team===*/
+/**===TEAM============================*/
+
 .team {
     background-color: #F4F4FD;
 }
 
 .container-team {
     padding: 120px 0px;
+    border: 1px solid #f70707;
 }
 
 .team-title {
@@ -223,13 +250,19 @@ address {
     Height: 40px;
 }
 
-.team-list {}
-
-.team-list-item {
-    background-color: #FFFFFF
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
-.team-image {}
+.team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 24px *3) / 4);
+}
+
+.team-image {
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-image-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -250,7 +283,7 @@ address {
 
 }
 
-/*===Portfolio===*/
+/**===PORTFOLIO========================*/
 
 .portfolio {
     background: #FFF;
@@ -258,6 +291,7 @@ address {
 
 .container-portfolio {
     padding: 120px 0px;
+    border: 1px solid #f70707;
 }
 
 .portfolio-title {
@@ -274,9 +308,15 @@ address {
 
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.portfolio-list-item {}
+.portfolio-list-item {
+    gap: 24px 48px;
+    width: calc((100% - 24px *2) / 3);
+}
 
 .portfoio-image {
     background: var(--WHITE, #FFF);
@@ -310,7 +350,7 @@ address {
     padding-right: 16;
 }
 
-/*===Footer===*/
+/**===FOOTER=============================*/
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
