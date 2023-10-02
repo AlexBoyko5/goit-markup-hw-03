@@ -36,17 +36,17 @@ address {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
 }
 
-/*===header===*/
+/**===HEADER=============================*/
 
 .container-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f70707;
 }
 
 .header {
@@ -55,11 +55,15 @@ address {
     letter-spacing: 0.02em;
     color: #2E2F42;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navi {
     color-scheme: #2E2F42;
     background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -71,6 +75,9 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    align-items: center;
+    margin-right: 76px;
+    display: block;
 }
 
 .header-logo-span {
@@ -83,12 +90,14 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
-
-.heder-menu-item {}
 
 .header-menu-link {
     color: #2E2F42;
+    display: block;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -101,11 +110,14 @@ address {
     font-weight: 400;
     color: #434455;
     background-color: #f4f4fd;
+    margin-left: auto;
+    display: block;
 }
 
-.header-address-list {}
-
-.header-address-item {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-link {
     color: var(--SLATE, #434455);
@@ -116,21 +128,22 @@ address {
     color: #404BBF
 }
 
-/*===maine===*/
+/*!===MAINE============================!*/
 
-/*===Solutions===*/
+/**===Solutions=========================*/
 
 .container-solutions {
-    padding-top: 188px;
-    padding-bottom: 188px;
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 120px;
     margin-left: 0;
+    border: 1px solid #f70707;
 }
 
 .solutions {
     background: var(--NAVY-BLUE, #3d422e);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 
@@ -141,6 +154,7 @@ address {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
     margin-bottom: 48px;
 }
 
@@ -161,6 +175,8 @@ address {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
 }
 
 .main-solutions-btn:hover,
@@ -169,21 +185,38 @@ address {
     background-color: #404BBF;
 }
 
-/*===Features===*/
+/**===FEATURES=======================!*/
 
 .features {
     background-color: #f4f4fd;
-}
-
-.container-features {
     padding: 120px 0;
 }
 
-.features-title {}
+.container-features {
+    border: 1px solid #f70707;
+}
 
-.features-list {}
+.features-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-.features-list-item {}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-item {
+    width: calc((100% - 24px *3) / 4);
+}
 
 .features-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -201,13 +234,15 @@ address {
     width: 264px;
 }
 
-/*===Team===*/
+/**===TEAM============================*/
+
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0px;
 }
 
 .container-team {
-    padding: 120px 0px;
+    border: 1px solid #f70707;
 }
 
 .team-title {
@@ -223,13 +258,20 @@ address {
     Height: 40px;
 }
 
-.team-list {}
-
-.team-list-item {
-    background-color: #FFFFFF
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
-.team-image {}
+.team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 24px *3) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-worker {
+    padding: 32px 0;
+}
 
 .team-image-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -238,7 +280,6 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -246,18 +287,13 @@ address {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-
 }
 
-/*===Portfolio===*/
+/**===PORTFOLIO========================*/
 
 .portfolio {
     background: #FFF;
-}
-
-.container-portfolio {
-    padding: 120px 0px;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -274,12 +310,27 @@ address {
 
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    border: 1px solid #f70707;
+}
 
-.portfolio-list-item {}
+.portfolio-list-item {
+    gap: 24px 48px;
+    width: calc((100% - 48px) / 3);
+}
 
 .portfoio-image {
     background: var(--WHITE, #FFF);
+}
+
+.portfolio-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-image-name {
@@ -294,8 +345,6 @@ address {
     padding-left: 16px;
     padding-bottom: 0;
     padding-right: 16;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 .portfolio-list-text {
@@ -310,16 +359,10 @@ address {
     padding-right: 16;
 }
 
-/*===Footer===*/
+/**===FOOTER=============================*/
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-}
-
-.container-footer {
-    padding-top: 100px;
-    padding-left: 0px;
-    padding-bottom: 100;
-    padding-right: 0px;
+    padding: 100px 0
 }
 
 .footer-logo {
@@ -331,6 +374,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo-span {
@@ -338,7 +382,6 @@ address {
 }
 
 .footer-text {
-    display: inline-block;
     color: var(--CLOUD, #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
