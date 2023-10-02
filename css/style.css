@@ -293,7 +293,10 @@ address {
 
 .portfolio {
     background: #FFF;
-    padding: 120px 0 120px 0;
+}
+
+.container-portfolio {
+    padding: 120px 0px;
 }
 
 .portfolio-title {
@@ -310,13 +313,7 @@ address {
 
 }
 
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    border: 1px solid #f70707;
-}
+.portfolio-list {}
 
 .portfolio-list-item {
     gap: 24px 48px;
