@@ -132,6 +132,13 @@ address {
 
 /**===Solutions=========================*/
 
+.container-solutions {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 120px;
+    margin-left: 0;
+    border: 1px solid #f70707;
+}
 
 .solutions {
     background: var(--NAVY-BLUE, #3d422e);
@@ -149,11 +156,6 @@ address {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin-bottom: 48px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 120px;
-    margin-left: 0;
-    border: 1px solid #f70707;
 }
 
 .main-solutions-btn {
@@ -188,6 +190,9 @@ address {
 .features {
     background-color: #f4f4fd;
     padding: 120px 0;
+}
+
+.container-features {
     border: 1px solid #f70707;
 }
 
@@ -207,7 +212,6 @@ address {
 .features-list {
     display: flex;
     gap: 24px;
-    border: 1px solid #f70707;
 }
 
 .features-list-item {
@@ -235,6 +239,9 @@ address {
 .team {
     background-color: #F4F4FD;
     padding: 120px 0px;
+}
+
+.container-team {
     border: 1px solid #f70707;
 }
 
@@ -254,7 +261,6 @@ address {
 .team-list {
     display: flex;
     gap: 24px;
-    border: 1px solid #f70707;
 }
 
 .team-list-item {
@@ -313,8 +319,8 @@ address {
 }
 
 .portfolio-list-item {
-    width: calc((100% - 48px) / 3);
     gap: 24px 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfoio-image {
